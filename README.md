@@ -100,7 +100,7 @@ STREAK.sは、あなたが学習したばかりの技術トピックを登録す
 
 | **分野** | **技術/サービス** | **品質保証・デプロイ** |
 | --- | --- | --- |
-| **サーバサイド** | **Drupal 11.2 (PHP)** | **単体テスト** (PHPUnit) |
+| **サーバサイド** | **Drupal 11.2 (PHP 8.4)** | **単体テスト** (PHPUnit) |
 | **データベース** | **PostgreSQL (Google Cloud SQL)** | **結合テスト** (CRUD操作確認) |
 | **AI 連携層** | **Google Cloud Functions (Python)** | **結合テスト** (API通信確認) |
 | **フロントエンド** | **Drupal Themes (Twig) + Tailwind CSS** | - |
