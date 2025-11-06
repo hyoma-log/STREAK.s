@@ -17,6 +17,15 @@
 
 全サービスは `streak_net` というブリッジネットワークに属します。
 
+## DB 接続情報（メモ）
+- ホスト名（service名）: `db`
+- データベース名: `streak`
+- ユーザー名: `postgres`
+- パスワード: `postgres`
+- 永続化ボリューム: `db_data` → `/var/lib/postgresql/data`
+
+上記は `docker-compose.yml` の `db` サービスで設定されています。Drupal のセットアップ（Issue #1.6 予定）では、DB ホストに `db` を指定してください。
+
 ## 起動手順（ローカルでの最小確認）
 1. Docker と Docker Compose がインストールされていることを確認してください。
 2. プロジェクトルートに移動します。
