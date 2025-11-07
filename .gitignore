@@ -1,0 +1,24 @@
+# Composer
+/vendor/
+
+# Drupal
+/web/sites/*/files/
+/web/sites/*/settings.local.php
+/web/sites/*/settings.php
+/web/sites/*/services.local.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
