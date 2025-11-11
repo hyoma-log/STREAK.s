@@ -5,6 +5,8 @@ services:
     container_name: streak_php
     volumes:
       - ./:/var/www/html
+    depends_on:
+      - db
     networks:
       - streak_net
 
